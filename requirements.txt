@@ -2,3 +2,4 @@ google-genai
 ollama
 matplotlib
 scikit-learn
+dotenv
