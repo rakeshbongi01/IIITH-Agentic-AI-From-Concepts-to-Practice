@@ -3,3 +3,6 @@ ollama
 matplotlib
 scikit-learn
 dotenv
+
+python-dotenv
+openai
