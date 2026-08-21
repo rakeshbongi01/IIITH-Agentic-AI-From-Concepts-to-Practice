@@ -1,0 +1,31 @@
+[User Inquires: "Is Flight A1203 likely to depart on time?"]
+  │
+  ├─► [PHASE 1: PLANNER]
+  │     └─► Output: Goal & Step-by-Step Plan[cite: 1]
+  │
+  ├─► [PHASE 2: AGENT LOOP]
+  │     │
+  │     ├─► [Turn 1: Tool Request]
+  │     │     │
+  │     │     ├─► LLM requests: `get_flight_status(flight_number="A1203")`[cite: 1]
+  │     │     ├─► tools.py executes: reads FLIGHTS dictionary[cite: 1]
+  │     │     └─► Tool Response: {"status": "Scheduled", "tail": "N101AW", "origin": "HYD"}[cite: 1]
+  │     │
+  │     ├─► [Turn 2: Tool Request]
+  │     │     │
+  │     │     ├─► LLM requests: `get_weather(airport="HYD")`[cite: 1]
+  │     │     ├─► tools.py executes: reads WEATHER dictionary[cite: 1]
+  │     │     └─► Tool Response: {"visibility": "600m - dense fog", "advisory": "Adverse weather"}[cite: 1]
+  │     │
+  │     ├─► [Turn 3: Tool Request]
+  │     │     │
+  │     │     ├─► LLM requests: `maintenance_history(tail_number="N101AW")`[cite: 1]
+  │     │     ├─► tools.py executes: reads MAINTENANCE dictionary[cite: 1]
+  │     │     └─► Tool Response: {"open_issues": ["APU pressure advisory under review"]}[cite: 1]
+  │     │
+  │     └─► [Turn 4: Synthesize Final Answer]
+  │           │
+  │           └─► LLM evaluates combined outputs -> Generates natural-language dispatch assessment[cite: 1]
+  │
+  └─► [PHASE 3: REFLECTOR]
+        └─► Evaluates: Unnecessary tools? Missing info? Confidence Level?[cite: 1]
