@@ -14,7 +14,7 @@ SINGLE_PORT=8501
 MULTI_PORT=8502
 
 setup_venv() {
-  if [ ! -x "$VENV_DIR/bin/streamlit" ]; then
+  if [ ! -x "$VENV_DIR/bin/streamlit" ] || ! "$VENV_DIR/bin/python" -c 'import openai, dotenv' 2>/dev/null; then
     if [ ! -d "$VENV_DIR" ]; then
       echo "Creating shared virtual environment at .venv ..."
       python3 -m venv "$VENV_DIR"
