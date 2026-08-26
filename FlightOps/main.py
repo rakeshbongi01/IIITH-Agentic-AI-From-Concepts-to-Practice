@@ -40,5 +40,5 @@ if __name__ == "__main__":
     process_query(test_query_1)
 
     # Test 2: Error Handling Verification (calls simulated failing weather code 'ERR')
-    # test_query_2 = "What is the weather status at station ERR and is Gate A1 free in Terminal 1?"
-    # process_query(test_query_2)
+    test_query_2 = "What is the weather status at station ERR and is Gate A1 free in Terminal 1?"
+    process_query(test_query_2)
