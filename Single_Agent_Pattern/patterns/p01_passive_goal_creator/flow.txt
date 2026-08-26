@@ -1,0 +1,9 @@
+agentic-patterns/run.sh
+    ↓
+Single_Agent_Pattern/app.py
+    ↓ imports
+patterns/p01_passive_goal_creator/agent.py
+    ↓ imports
+shared/llm.py
+    ↓ imports
+.env
