@@ -1,0 +1,26 @@
+[User Inquires: "I'm working Terminal 2 today. Find me an open gate."]
+  │
+  ├─► [PHASE 1: PLANNER]
+  │     └─► Output: Goal & Step-by-Step Plan
+  │
+  ├─► [PHASE 2: AGENT LOOP]
+  │     │
+  │     ├─► System Prompt loads memory context from JSON file
+  │     │
+  │     ├─► [Turn 1: Tool Request]
+  │     │     ├─► LLM requests: `remember(key="working_terminal", value="Terminal 2", ...)`
+  │     │     ├─► MCP Client formats JSON-RPC and sends to MCP Server
+  │     │     ├─► MCP Server executes `memory.py` -> writes to `skyvault_memory.json`
+  │     │     └─► MCP Server returns JSON-RPC Result: "Successfully remembered..."
+  │     │
+  │     ├─► [Turn 2: Tool Request]
+  │     │     ├─► LLM requests: `find_available_gate(terminal="Terminal 2")`
+  │     │     ├─► MCP Client formats JSON-RPC and sends to MCP Server
+  │     │     ├─► MCP Server executes `tools.py`
+  │     │     └─► MCP Server returns JSON-RPC Result: "Gate B3"
+  │     │
+  │     └─► [Turn 3: Synthesize Final Answer]
+  │           └─► LLM evaluates combined outputs -> Generates natural-language response
+  │
+  └─► [PHASE 3: REFLECTOR]
+        └─► Evaluates: Unnecessary tools? Missing info? Confidence Level?
