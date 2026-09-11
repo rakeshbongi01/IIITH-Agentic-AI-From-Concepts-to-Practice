@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 # Unified launcher for the Agentic Patterns demos.
 # Run: ./run.sh
+
+#Rn:cd agentic-patterns
+#chmod +x run.sh
+#./run.sh
+
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
