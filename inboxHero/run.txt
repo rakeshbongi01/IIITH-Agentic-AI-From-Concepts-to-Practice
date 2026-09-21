@@ -1,0 +1,26 @@
+# R1: Zero the Inbox
+python demo.py --cap R1
+
+# R2: Grounded Reply (citing m003 for m008)
+python demo.py --cap R2 --msg m008
+
+# R3: Gate Irreversible Actions (Dry Run)
+python demo.py --cap R3 --dry-run
+
+# R4: Persistent Preferences Across Restarts
+python demo.py --cap R4
+
+# R5: Refuse Embedded Prompt Injections
+python demo.py --cap R5
+
+# R6: Generate 3-Pane Dashboard
+python demo.py --cap R6
+
+# X1: Unanswered Follow-up Tracking
+python demo.py --cap X1
+
+# X2: Executive Morning Digest
+python demo.py --cap X2
+
+# X3: Constraint-Aware Calendar Scheduling
+python demo.py --cap X3 --msg m043

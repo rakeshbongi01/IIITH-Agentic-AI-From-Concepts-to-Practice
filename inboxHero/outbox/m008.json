@@ -1,0 +1,5 @@
+{
+  "to": "devika@paperjet.io",
+  "subject": "Re: Re: Staging is down again",
+  "body": "Hi Devika,\n\nHere are the active staging broker credentials from earlier:\namqp://pj_stage:Rk7-quiet-otter-51@broker-stg.paperjet.io:5672/pjs\n\nBest,\nSam"
+}

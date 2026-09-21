@@ -1,10 +1,9 @@
 # CAPABILITIES.md
 
-**Student:** Rakesh Bongi, 2026AI06  
-**Repository:** https://github.com/rakesh-bongi/inboxhero  
+**Student:** Bongi Rakesh , cert-aai-2026-06-0002
+**Repository:** https://github.com/rakeshbongi01/IIITH-Agentic-AI-From-Concepts-to-Practice/tree/main/inboxHero  
 
 Run everything through one entry point:
 
-```bash
 python demo.py --cap R1        # zero the inbox
 python demo.py --all           # all capabilities in sequence

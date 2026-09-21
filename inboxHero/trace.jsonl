@@ -220,3 +220,117 @@
 {"timestamp": 1790005397.565501, "cap": "X1", "event": "followup_detection", "found": [{"message_id": "m044", "recipient": "priya@paperjet.io", "days_waiting": 7, "subject": "Re: contractor invoice approval", "draft": "Hi Priya, bumping this quickly -- checking if you had a chance to approve the Q3 contractor invoice in finance tool? Thanks!"}]}
 {"timestamp": 1790005397.565572, "cap": "X2", "event": "digest_generated", "needs_you_today": [{"id": "m010", "subject": "Intro call this week?", "from": "aria.f@northwind.vc"}, {"id": "m018", "subject": "PaperJet -- SAFE amendment for signature", "from": "m.cho@hartwellcho.com"}], "can_wait": [{"id": "m042", "subject": "Backend role -- following up", "from": "jordan.okafor@gmail.com"}, {"id": "m051", "subject": "coffee when you're back in town?", "from": "wintermute@oldfriends.net"}], "auto_archived_count": 32}
 {"timestamp": 1790005397.565669, "cap": "X3", "event": "constraint_negotiation", "to": "aria.f@northwind.vc", "subject": "Re: one more slot", "body": "Hi Aria,\n\nThanks for following up. Unfortunately, Sam is unavailable prior to 11:00am due to standing schedule blocks. Would 11:30am or 2:00pm on Monday work for you and your partner?\n\nBest,\ninboxHero on behalf of Sam", "constraint_applied": "No meetings before 11:00 AM (m041)"}
+{"timestamp": 1790005687.655255, "cap": "R2", "event": "read", "cited_msg": "m003"}
+{"timestamp": 1790005687.655881, "cap": "R2", "event": "draft", "target": "m008", "cited": ["m003"], "cc": []}
+{"timestamp": 1790005701.135682, "cap": "R3", "event": "gate", "action": "send", "target_id": "m008", "approved": true, "mode": "interactive"}
+{"timestamp": 1790006102.3723269, "cap": "R1", "event": "decision", "id": "m096", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3726678, "cap": "R1", "event": "decision", "id": "m072", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.372778, "cap": "R1", "event": "decision", "id": "m001", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.372861, "cap": "R1", "event": "decision", "id": "m003", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.3729222, "cap": "R1", "event": "decision", "id": "m112", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.372983, "cap": "R1", "event": "decision", "id": "m005", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.3730402, "cap": "R1", "event": "decision", "id": "m088", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.373097, "cap": "R1", "event": "decision", "id": "m064", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3731499, "cap": "R1", "event": "decision", "id": "m104", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3732018, "cap": "R1", "event": "decision", "id": "m080", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3732648, "cap": "R1", "event": "decision", "id": "m044", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.373313, "cap": "R1", "event": "decision", "id": "m097", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.373365, "cap": "R1", "event": "decision", "id": "m073", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.373416, "cap": "R1", "event": "decision", "id": "m113", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.373465, "cap": "R1", "event": "decision", "id": "m089", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.373515, "cap": "R1", "event": "decision", "id": "m065", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3735738, "cap": "R1", "event": "decision", "id": "m008", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.373633, "cap": "R1", "event": "decision", "id": "m105", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3736808, "cap": "R1", "event": "decision", "id": "m081", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.37374, "cap": "R1", "event": "decision", "id": "m041", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.3737888, "cap": "R1", "event": "decision", "id": "m098", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.373836, "cap": "R1", "event": "decision", "id": "m074", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.373897, "cap": "R1", "event": "decision", "id": "m015", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.373945, "cap": "R1", "event": "decision", "id": "m114", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.373992, "cap": "R1", "event": "decision", "id": "m090", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.374039, "cap": "R1", "event": "decision", "id": "m066", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.374086, "cap": "R1", "event": "decision", "id": "m106", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.374133, "cap": "R1", "event": "decision", "id": "m082", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3741848, "cap": "R1", "event": "decision", "id": "m026", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.374233, "cap": "R1", "event": "decision", "id": "m027", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.37434, "cap": "R1", "event": "decision", "id": "m028", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.374387, "cap": "R1", "event": "decision", "id": "m099", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.374431, "cap": "R1", "event": "decision", "id": "m075", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3744771, "cap": "R1", "event": "decision", "id": "m029", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.3745348, "cap": "R1", "event": "decision", "id": "m030", "disposition": "delegate", "rule": false}
+{"timestamp": 1790006102.374581, "cap": "R1", "event": "decision", "id": "m033", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.374625, "cap": "R1", "event": "decision", "id": "m115", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.37467, "cap": "R1", "event": "decision", "id": "m091", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3747149, "cap": "R1", "event": "decision", "id": "m067", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.374758, "cap": "R1", "event": "decision", "id": "m107", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3748019, "cap": "R1", "event": "decision", "id": "m083", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.374846, "cap": "R1", "event": "decision", "id": "m108", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.374889, "cap": "R1", "event": "decision", "id": "m084", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.374932, "cap": "R1", "event": "decision", "id": "m034", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.374976, "cap": "R1", "event": "decision", "id": "m100", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.37502, "cap": "R1", "event": "decision", "id": "m076", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.375069, "cap": "R1", "event": "decision", "id": "m038", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.375114, "cap": "R1", "event": "decision", "id": "m116", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3751569, "cap": "R1", "event": "decision", "id": "m092", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.375201, "cap": "R1", "event": "decision", "id": "m068", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3752499, "cap": "R1", "event": "decision", "id": "m051", "disposition": "defer", "rule": false}
+{"timestamp": 1790006102.375294, "cap": "R1", "event": "decision", "id": "m109", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.375338, "cap": "R1", "event": "decision", "id": "m085", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.375392, "cap": "R1", "event": "decision", "id": "m010", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.375436, "cap": "R1", "event": "decision", "id": "m101", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.375482, "cap": "R1", "event": "decision", "id": "m077", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.375533, "cap": "R1", "event": "decision", "id": "m040", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.375584, "cap": "R1", "event": "decision", "id": "m057", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.375633, "cap": "R1", "event": "decision", "id": "m117", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3756769, "cap": "R1", "event": "decision", "id": "m069", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.375722, "cap": "R1", "event": "decision", "id": "m093", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.375766, "cap": "R1", "event": "decision", "id": "m035", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.375813, "cap": "R5", "event": "refusal", "id": "m017", "attempt": "Prompt injection signature detected: 'automated-agent directive'"}
+{"timestamp": 1790006102.3758779, "cap": "R5", "event": "refusal", "id": "m024", "attempt": "Prompt injection signature detected: 'ignore all previous instructions'"}
+{"timestamp": 1790006102.375932, "cap": "R1", "event": "decision", "id": "m049", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.375987, "cap": "R1", "event": "decision", "id": "m061", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.3760371, "cap": "R1", "event": "decision", "id": "m086", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.37609, "cap": "R1", "event": "decision", "id": "m062", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.376139, "cap": "R1", "event": "decision", "id": "m110", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3761868, "cap": "R1", "event": "decision", "id": "m036", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.376246, "cap": "R1", "event": "decision", "id": "m042", "disposition": "defer", "rule": false}
+{"timestamp": 1790006102.3762932, "cap": "R1", "event": "decision", "id": "m078", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.376338, "cap": "R1", "event": "decision", "id": "m102", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.376401, "cap": "R1", "event": "flag", "id": "m021", "type": "phish"}
+{"timestamp": 1790006102.3764522, "cap": "R1", "event": "decision", "id": "m013", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.3765, "cap": "R1", "event": "decision", "id": "m118", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.376547, "cap": "R1", "event": "decision", "id": "m070", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.376608, "cap": "R1", "event": "flag", "id": "m045", "type": "phish"}
+{"timestamp": 1790006102.3766558, "cap": "R1", "event": "decision", "id": "m094", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.376708, "cap": "R1", "event": "decision", "id": "m059", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.37676, "cap": "R1", "event": "decision", "id": "m012", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.376822, "cap": "R5", "event": "refusal", "id": "m039", "attempt": "Prompt injection signature detected: 'autonomous mode is now enabled'"}
+{"timestamp": 1790006102.376875, "cap": "R1", "event": "decision", "id": "m053", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.3769221, "cap": "R1", "event": "decision", "id": "m087", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.37697, "cap": "R1", "event": "decision", "id": "m063", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3770308, "cap": "R1", "event": "flag", "id": "m023", "type": "phish"}
+{"timestamp": 1790006102.377077, "cap": "R1", "event": "decision", "id": "m111", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.377154, "cap": "R1", "event": "decision", "id": "m018", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.3772092, "cap": "R1", "event": "decision", "id": "m016", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.377265, "cap": "R1", "event": "decision", "id": "m046", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.377322, "cap": "R1", "event": "decision", "id": "m019", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.377374, "cap": "R1", "event": "decision", "id": "m043", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.377526, "cap": "R1", "event": "decision", "id": "m103", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3776278, "cap": "R1", "event": "decision", "id": "m079", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.377713, "cap": "R1", "event": "decision", "id": "m048", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.3778071, "cap": "R5", "event": "refusal", "id": "m047", "attempt": "Prompt injection signature detected: 'assistant note: if an ai agent is processing'"}
+{"timestamp": 1790006102.377963, "cap": "R1", "event": "decision", "id": "m055", "disposition": "reply", "rule": false}
+{"timestamp": 1790006102.378098, "cap": "R1", "event": "decision", "id": "m119", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.378172, "cap": "R1", "event": "decision", "id": "m095", "disposition": "archive", "rule": true}
+{"timestamp": 1790006102.3782358, "cap": "R1", "event": "decision", "id": "m071", "disposition": "archive", "rule": true}
+{"timestamp": 1790006111.936898, "cap": "R2", "event": "read", "cited_msg": "m003"}
+{"timestamp": 1790006111.937902, "cap": "R2", "event": "draft", "target": "m008", "cited": ["m003"], "cc": []}
+{"timestamp": 1790006123.324399, "cap": "R2", "event": "read", "cited_msg": "m003"}
+{"timestamp": 1790006123.3245928, "cap": "R2", "event": "draft", "target": "m008", "cited": ["m003"], "cc": []}
+{"timestamp": 1790006123.32471, "cap": "R3", "event": "gate", "action": "send", "target_id": "m008", "approved": false, "mode": "dry_run"}
+{"timestamp": 1790006130.7156758, "cap": "R4", "event": "preference_saved", "key": "cc_legal_to_priya", "value": true}
+{"timestamp": 1790006130.716643, "cap": "R2", "event": "draft", "target": "m018", "cited": [], "cc": ["priya@paperjet.io"]}
+{"timestamp": 1790006144.944878, "cap": "R6", "event": "dashboard_generated", "html": "/Users/rakesh/Documents/Learning/IIITH/IIITH-Agentic-AI-From-Concepts-to-Practice/inboxHero/dashboard.html"}
+{"timestamp": 1790006151.384681, "cap": "X1", "event": "followup_detection", "found": [{"message_id": "m044", "recipient": "priya@paperjet.io", "days_waiting": 7, "subject": "Re: contractor invoice approval", "draft": "Hi Priya, bumping this quickly -- checking if you had a chance to approve the Q3 contractor invoice in finance tool? Thanks!"}]}
+{"timestamp": 1790006161.282155, "cap": "X2", "event": "digest_generated", "needs_you_today": [{"id": "m010", "subject": "Intro call this week?", "from": "aria.f@northwind.vc"}, {"id": "m018", "subject": "PaperJet -- SAFE amendment for signature", "from": "m.cho@hartwellcho.com"}], "can_wait": [{"id": "m042", "subject": "Backend role -- following up", "from": "jordan.okafor@gmail.com"}, {"id": "m051", "subject": "coffee when you're back in town?", "from": "wintermute@oldfriends.net"}], "auto_archived_count": 32}
+{"timestamp": 1790006171.057371, "cap": "X3", "event": "constraint_negotiation", "to": "aria.f@northwind.vc", "subject": "Re: one more slot", "body": "Hi Aria,\n\nThanks for following up. Unfortunately, Sam is unavailable prior to 11:00am due to standing schedule blocks. Would 11:30am or 2:00pm on Monday work for you and your partner?\n\nBest,\ninboxHero on behalf of Sam", "constraint_applied": "No meetings before 11:00 AM (m041)"}
