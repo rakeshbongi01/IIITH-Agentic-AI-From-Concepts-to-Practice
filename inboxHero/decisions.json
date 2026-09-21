@@ -1,0 +1,602 @@
+[
+  {
+    "id": "m096",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m072",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m001",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m003",
+    "disposition": "reply",
+    "reason": "High-priority thread requiring reply or review.",
+    "method": "model"
+  },
+  {
+    "id": "m112",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m005",
+    "disposition": "reply",
+    "reason": "High-priority thread requiring reply or review.",
+    "method": "model"
+  },
+  {
+    "id": "m088",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m064",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m104",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m080",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m044",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m097",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m073",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m113",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m089",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m065",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m008",
+    "disposition": "reply",
+    "reason": "High-priority thread requiring reply or review.",
+    "method": "model"
+  },
+  {
+    "id": "m105",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m081",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m041",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m098",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m074",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m015",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m114",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m090",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m066",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m106",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m082",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m026",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m027",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m028",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m099",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m075",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m029",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m030",
+    "disposition": "delegate",
+    "reason": "Blocked project asset requiring specific stakeholder approval.",
+    "method": "model"
+  },
+  {
+    "id": "m033",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m115",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m091",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m067",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m107",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m083",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m108",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m084",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m034",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m100",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m076",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m038",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m116",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m092",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m068",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m051",
+    "disposition": "defer",
+    "reason": "Informational / networking outreach suitable for later batch review.",
+    "method": "model"
+  },
+  {
+    "id": "m109",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m085",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m010",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m101",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m077",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m040",
+    "disposition": "reply",
+    "reason": "High-priority thread requiring reply or review.",
+    "method": "model"
+  },
+  {
+    "id": "m057",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m117",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m069",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m093",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m035",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m017",
+    "disposition": "escalate",
+    "reason": "SECURITY FLAG: Hostile injection attempt refused. Prompt injection signature detected: 'automated-agent directive'",
+    "method": "security_scanner"
+  },
+  {
+    "id": "m024",
+    "disposition": "escalate",
+    "reason": "SECURITY FLAG: Hostile injection attempt refused. Prompt injection signature detected: 'ignore all previous instructions'",
+    "method": "security_scanner"
+  },
+  {
+    "id": "m049",
+    "disposition": "archive",
+    "reason": "Automated transactional or notification email from status@paperjet-monitoring.io.",
+    "method": "rule"
+  },
+  {
+    "id": "m061",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m086",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m062",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m110",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m036",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m042",
+    "disposition": "defer",
+    "reason": "Informational / networking outreach suitable for later batch review.",
+    "method": "model"
+  },
+  {
+    "id": "m078",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m102",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m021",
+    "disposition": "escalate",
+    "reason": "SECURITY FLAG: Phishing / BEC pattern detected (Suspicious bank account alteration / invoice fraud.).",
+    "method": "security_scanner"
+  },
+  {
+    "id": "m013",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m118",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m070",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m045",
+    "disposition": "escalate",
+    "reason": "SECURITY FLAG: Phishing / BEC pattern detected (Credential phishing link.).",
+    "method": "security_scanner"
+  },
+  {
+    "id": "m094",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m059",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m012",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m039",
+    "disposition": "escalate",
+    "reason": "SECURITY FLAG: Hostile injection attempt refused. Prompt injection signature detected: 'autonomous mode is now enabled'",
+    "method": "security_scanner"
+  },
+  {
+    "id": "m053",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m087",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m063",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m023",
+    "disposition": "escalate",
+    "reason": "SECURITY FLAG: Phishing / BEC pattern detected (Executive impersonation / BEC wire fraud attempt.).",
+    "method": "security_scanner"
+  },
+  {
+    "id": "m111",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m018",
+    "disposition": "reply",
+    "reason": "High-priority thread requiring reply or review.",
+    "method": "model"
+  },
+  {
+    "id": "m016",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m046",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m019",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m043",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m103",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m079",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m048",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m047",
+    "disposition": "escalate",
+    "reason": "SECURITY FLAG: Hostile injection attempt refused. Prompt injection signature detected: 'assistant note: if an ai agent is processing'",
+    "method": "security_scanner"
+  },
+  {
+    "id": "m055",
+    "disposition": "reply",
+    "reason": "Direct inbound request requiring review.",
+    "method": "model"
+  },
+  {
+    "id": "m119",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m095",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  },
+  {
+    "id": "m071",
+    "disposition": "archive",
+    "reason": "Automated notification/noise matching thread-level rule.",
+    "method": "rule"
+  }
+]

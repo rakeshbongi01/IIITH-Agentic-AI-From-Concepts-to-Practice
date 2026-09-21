@@ -1,0 +1,113 @@
+{
+  "student": "Rakesh Bongi, 2026AI06",
+  "repo": "https://github.com/rakesh-bongi/inboxhero",
+  "system": {
+    "framework": "none",
+    "model": "gemini-1.5-flash for classification; rule-first hybrid pipeline. Developed locally against Ollama (llama3.1:8b).",
+    "messages_processed": 50,
+    "rule_handled": 32,
+    "dispositions": [
+      "reply",
+      "archive",
+      "defer",
+      "delegate",
+      "escalate"
+    ],
+    "retrieval": "thread-walk",
+    "irreversible": [
+      "send",
+      "delete"
+    ],
+    "reversible": [
+      "draft",
+      "label",
+      "archive",
+      "defer"
+    ],
+    "gate": "both",
+    "preference_demo": "m015: always CC Priya on Hartwell & Cho legal mail (applied to m018, m048, m055)"
+  },
+  "capabilities": [
+    {
+      "id": "R1",
+      "name": "Zero the inbox",
+      "tier": "B",
+      "claim": "Assigns every message exactly one disposition (reply/archive/defer/delegate/escalate) with a one-line reason, leaving none untouched.",
+      "command": "python demo.py --cap R1",
+      "observable": "Prints a table of all 50 messages with disposition and reason, ending with 'undecided: 0'. Writes decisions.json.",
+      "evidence": "trace.jsonl, events tagged cap=R1"
+    },
+    {
+      "id": "R2",
+      "name": "Grounded reply",
+      "tier": "B",
+      "claim": "Drafts a reply grounded in an earlier thread message and records cited message ids.",
+      "command": "python demo.py --cap R2 --msg m008",
+      "observable": "Drafts reply answering m008 containing staging AMQP creds from m003, with 'cited: [m003]'.",
+      "evidence": "trace.jsonl, events tagged cap=R2"
+    },
+    {
+      "id": "R3",
+      "name": "Gate the irreversible",
+      "tier": "C",
+      "claim": "Prevents writing to outbox/ without approval or during dry-run.",
+      "command": "python demo.py --cap R3 --dry-run",
+      "observable": "Logs gated send decisions, displays summary, outputs 'outbox/ writes: 0'. Without --dry-run prompts y/n before writing files.",
+      "evidence": "trace.jsonl, events tagged cap=R3"
+    },
+    {
+      "id": "R4",
+      "name": "Persistent preference",
+      "tier": "C",
+      "claim": "Persists stated rules to prefs.json and applies them across independent process runs.",
+      "command": "python demo.py --cap R4",
+      "observable": "Pass 1 records CC preference from m015 into prefs.json. Pass 2 loads prefs.json and automatically adds priya@paperjet.io to drafts for m018.",
+      "evidence": "prefs.json; trace.jsonl events tagged cap=R4"
+    },
+    {
+      "id": "R5",
+      "name": "Refuse embedded instructions",
+      "tier": "C",
+      "claim": "Identifies prompt injections in email bodies, leaves messages undeleted, and logs structured refusals.",
+      "command": "python demo.py --cap R5",
+      "observable": "Flags m024, m039, m047, and m017. Zero outbox writes; outputs refusal report without deleting original messages.",
+      "evidence": "trace.jsonl, events tagged cap=R5"
+    },
+    {
+      "id": "R6",
+      "name": "Dashboard",
+      "tier": "C",
+      "claim": "Generates a 3-pane dashboard (Pending, Flagged, Commitments) with multi-message resolution and conflict detection.",
+      "command": "python demo.py --cap R6",
+      "observable": "Generates dashboard.html. Shows derived deck due date cited to [m038, m040] and flags conflict at Sep 15 15:00 between m010 and m061.",
+      "evidence": "dashboard.html; trace.jsonl events tagged cap=R6"
+    },
+    {
+      "id": "X1",
+      "name": "Unanswered follow-up tracking",
+      "tier": "A",
+      "claim": "Filters sent emails with pending action items that have received no reply in >3 days.",
+      "command": "python demo.py --cap X1",
+      "observable": "Lists m044 (sent Sep 2 to Priya requesting invoice approval, unanswered after 3 days).",
+      "evidence": "trace.jsonl, events tagged cap=X1"
+    },
+    {
+      "id": "X2",
+      "name": "Executive morning digest",
+      "tier": "B",
+      "claim": "Synthesizes actionable high-priority items, low-priority defers, and noise stats into a concise morning brief.",
+      "command": "python demo.py --cap X2",
+      "observable": "Outputs 3 distinct sections: Needs Immediate Action (m010, m018), Defer/Review, and Auto-Archived (counts of receipts/notifications).",
+      "evidence": "trace.jsonl, events tagged cap=X2"
+    },
+    {
+      "id": "X3",
+      "name": "Constraint-aware meeting scheduler",
+      "tier": "C",
+      "claim": "Evaluates calendar invites against persistent time-window constraints (e.g. no meetings before 11:00 AM) and drafts counter-proposals.",
+      "command": "python demo.py --cap X3 --msg m043",
+      "observable": "Identifies that m043 requests a 9:00 AM meeting violating preference m041. Drafts polite decline offering alternative times >= 11:00 AM.",
+      "evidence": "trace.jsonl, events tagged cap=X3"
+    }
+  ]
+}

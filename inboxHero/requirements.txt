@@ -1,0 +1,8 @@
+google-genai
+ollama
+matplotlib
+scikit-learn
+dotenv
+
+python-dotenv
+openai
